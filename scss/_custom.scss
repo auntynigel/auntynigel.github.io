@@ -1,0 +1,27 @@
+.hex {
+  margin-top:rem-calc(30px);
+  width:rem-calc(104px);
+  height:rem-calc(60px);
+  background-color: #66cc66;
+  position: relative;
+  :before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-bottom: rem-calc(30px) solid #66cc66;
+    border-left: rem-calc(52px) solid transparent;
+    border-right: rem-calc(52px) solid transparent;
+    position: absolute;
+    top: rem-calc(-30px);
+  }
+  :after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-bottom: rem-calc(30px) solid #66cc66;
+    border-left: rem-calc(52px) solid transparent;
+    border-right: rem-calc(52px) solid transparent;
+    position: absolute;
+    bottom: rem-calc(-30px);
+  }
+}
